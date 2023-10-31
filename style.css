@@ -1,0 +1,56 @@
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    flex-shrink: 0;
+    font-size: .5rem;
+}
+#questions,
+#final,
+#highscores,
+#yesno {
+    display: none;  
+  } 
+ul.nobullets {
+list-style-type: none;
+}
+.btn {
+    background-color: #39005f;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+    background-color: #9f05db;
+}
+@media (max-width: 480px) {  
+}
+@media (min-width: 481px) and (max-width: 1024px) {    
+}
+@media (min-width: 1025px) {    
+}
