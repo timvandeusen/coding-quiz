@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Javascript Code Quiz</title>
+</head>
+<body>
+<header class="container">
+ <div class="row">
+ <div class="col-6">
+<button id = "view-high-scores"class="btn">View High Scores</button>
+            </div>
+ <div class="col-6">
+</div>
+ </header>
+ <main>
+ <div class="container2">
+ <section id="intro">
+<div class="row">
+ <div class="col-3"></div>
+<div class="col-6">
+<h1>Welcome to the Javascript Coding Quiz Challenge!</h1>
+ <p>Try to answer the following javascript code questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+ <button id="start-quiz"class="btn">Start Quiz</button></p>
+ </div>
+</div>
+ </section>
+<section id="questions">
+<div class="row">
+<div class="col-3"></div>
+ <div class="col-6">
+ <h2 id="question">I'm a question</h2>
+                        
+ <ul class="mb-3"><button id="answer1" value="0" type="button" class="btn">Answer1</button></ul>
+ <ul class="mb-3"><button id="answer2" value="1" type="button" class="btn">Answer2</button></ul>
+<ul class="mb-3"><button id="answer3" value="2" type="button"class="btn">Answer3</button></ul>
+<ul class="mb-3"><button id="answer4" value="3" type="button"class="btn">Answer4</button></ul>
+<div id="yesno" class="font-weight-light font-italic">
+</div>
+</div>
+</div>
+ </section>
+<section id="final">
+<div class="row">
+<div class="col-3"></div>
+<div class="col-6">
+<h2>All done!</h2>
+<p>Your final score is: <span id="score" class="pl-1">0</span>
+<p>Enter initials: <span class="ml-1"><input placeholder="initials" id="initials" /></span>
+<button id="submit-score">Submit</button>
+ </div>
+</div>
+</section>
+<section id="highscores">
+<div class="row">
+<div class="col-3"></div>
+<div class="col-6">
+<h2>High Scores</h2>
+<li id="score-list"></li>
+<button id="goback">Go back</button>
+<button id="clearscores">Clear scores</button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<script src="./assets/script.js"></script>    
+</body>
+</html>
