@@ -32,10 +32,9 @@ footer {
 #yesno {
     display: none;  
   } 
-ul.nobullets {
-list-style-type: none;
-}
-.btn {
+
+
+.button, .answerButton {
     background-color: #39005f;
   border-radius: 30px;
   color: white;
@@ -45,7 +44,7 @@ list-style-type: none;
   display: inline-block;
   font-size: 16px;
 }
-.btn:hover {
+.button:hover, .answerButton:hover {
     background-color: #9f05db;
 }
 @media (max-width: 480px) {  
